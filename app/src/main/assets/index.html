@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <link href="css/style.css" rel="stylesheet" media="all" type="text/css">
+        <script src="javaScript/myscripts.js"></script>
+    </head>
+    <body>
+        <h1>Tableau de bord</h1>
+        <p>Entrez quelque chose :
+            <input type="number" class="input_text" id="content" />
+        </p>
+        <button class="button" onclick="Android.showToast(content.value)">show</button>
+        <button  class="button" onclick="Square.calculateSquare(content.value)">Carré</button>
+        <button  class="button" onclick="Divide.calculateDivide(content.value)">Divide</button>
+
+    <div id="result" class="result"></div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+html{
+	margin-left: 16px;
+}
+*{
+	font-size: 14px;
+}
+h1{
+	font-size: 20px;
+	color: rgb(255,0,0);
+	font-weight: bold;
+}
+.input_text{
+	margin-left: 16px;
+}
+.button {
+	background-color: rgb(0,0,255);
+	color: white;
+    width: 72px;
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
